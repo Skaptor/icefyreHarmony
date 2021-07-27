@@ -77,8 +77,6 @@ void SYS_Tasks ( void )
     SYS_TMR_Tasks(sysObj.sysTmr);
 
     /* Maintain Device Drivers */
-    DRV_TOUCH_FT5XX6_Tasks(sysObj.drvFt5xx6);
-
     DRV_TOUCH_MTCH6301_Tasks(sysObj.drvMtch6301);
 
 	// update the GFX Abstraction Layer

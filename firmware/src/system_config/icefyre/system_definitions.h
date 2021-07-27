@@ -62,7 +62,6 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "framework/driver/pmp/drv_pmp_static.h"
 #include "system/ports/sys_ports.h"
 #include "system/touch/sys_touch.h"
-#include "driver/touch/ft5xx6/drv_ft5xx6_static.h"
 #include "driver/touch/mtch6301/drv_mtch6301.h"
 #include "gfx/hal/gfx.h"
 #include "gfx/libaria/libaria_harmony.h"
@@ -106,7 +105,6 @@ typedef struct
     SYS_MODULE_OBJ  drvI2C0;
     SYS_MODULE_OBJ  drvPMP0;
     SYS_MODULE_OBJ  sysTouchObject0;
-    SYS_MODULE_OBJ  drvFt5xx6;
     SYS_MODULE_OBJ  drvMtch6301;
 
 } SYSTEM_OBJECTS;

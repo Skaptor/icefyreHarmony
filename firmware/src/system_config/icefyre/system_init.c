@@ -121,7 +121,6 @@ const DRV_I2C_INIT drvI2C0InitData =
 
 
 // </editor-fold>
-// <editor-fold defaultstate="collapsed" desc="DRV_Timer Initialization Data">
 /*** TMR Driver Initialization Data ***/
 
 const DRV_TMR_INIT drvTmr0InitData =
@@ -134,7 +133,6 @@ const DRV_TMR_INIT drvTmr0InitData =
     .interruptSource = DRV_TMR_INTERRUPT_SOURCE_IDX0,
     .asyncWriteEnable = false,
 };
-// </editor-fold>
 // <editor-fold defaultstate="collapsed" desc="DRV_TOUCH_MTCH6301 Initialization Data">
 /*** MTCH6301 Driver Initialization Data ***/
 
@@ -227,7 +225,6 @@ void SYS_Initialize ( void* data )
     SYS_DEVCON_Initialize(SYS_DEVCON_INDEX_0, (SYS_MODULE_INIT*)NULL);
     SYS_DEVCON_PerformanceConfig(SYS_CLK_SystemFrequencyGet());
     SYS_DEVCON_JTAGDisable();
-    SYS_PORTS_Initialize();
 
     /* Initialize Drivers */
     sysObj.drvI2C0 = DRV_I2C_Initialize(DRV_I2C_INDEX_0, (SYS_MODULE_INIT *)&drvI2C0InitData);
@@ -246,14 +243,12 @@ void SYS_Initialize ( void* data )
 
     sysObj.drvTmr0 = DRV_TMR_Initialize(DRV_TMR_INDEX_0, (SYS_MODULE_INIT *)&drvTmr0InitData);
 
+
     SYS_INT_VectorPrioritySet(INT_VECTOR_T1, INT_PRIORITY_LEVEL1);
     SYS_INT_VectorSubprioritySet(INT_VECTOR_T1, INT_SUBPRIORITY_LEVEL0);
  
  
- 
-    sysObj.drvFt5xx6 = DRV_TOUCH_FT5XX6_Initialize( FT5XX6_ID_1, NULL );
-
-    sysObj.drvMtch6301 = DRV_TOUCH_MTCH6301_Initialize(DRV_TOUCH_MTCH6301_INDEX_0,
+     sysObj.drvMtch6301 = DRV_TOUCH_MTCH6301_Initialize(DRV_TOUCH_MTCH6301_INDEX_0,
                                     (SYS_MODULE_INIT *)&drvTouchInitData);
  
     // initialize the GFX hardware abstraction layer
@@ -261,6 +256,7 @@ void SYS_Initialize ( void* data )
 
 
     /* Initialize System Services */
+    SYS_PORTS_Initialize();
 
     /*** Interrupt Service Initialization Code ***/
     SYS_INT_Initialize();

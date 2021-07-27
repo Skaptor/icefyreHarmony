@@ -12,7 +12,7 @@
     Header file containing a list of asset specifications for use with the
 	MPLAB Harmony Graphics Stack.
 
-    Created with MPLAB Harmony Version 2.05
+    Created with MPLAB Harmony Version 2.06
 *******************************************************************************/
 
 // DOM-IGNORE-BEGIN
@@ -75,7 +75,7 @@ extern GFXU_ImageAsset NewHarmonyLogo;
 /*********************************
  * GFX Font Asset
  * Name:         TimesNewRoman18
- * Height:       22
+ * Height:       21
  * Style:        Bold
  * Glyph Count:  15
  * Range Count:  10
@@ -95,7 +95,7 @@ extern GFXU_FontAsset TimesNewRoman18;
 /*********************************
  * GFX Font Asset
  * Name:         TimesNewRoman12
- * Height:       14
+ * Height:       15
  * Style:        Plain
  * Glyph Count:  0
  * Range Count:  0

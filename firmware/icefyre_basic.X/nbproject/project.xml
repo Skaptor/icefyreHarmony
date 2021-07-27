@@ -12,6 +12,71 @@
             <asminc-extensions/>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>..\src</sourceRootElem>
+                <sourceRootElem>..\src\pic32mk_gp_db_wqvga_mxt</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mk_gp_db_wqvga_mxt</sourceRootElem>
+                <sourceRootElem>..\src\pic32mk_gp_db_wvga_mxt</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mk_gp_db_wvga_mxt</sourceRootElem>
+                <sourceRootElem>..\src\pic32mx_pcap_db</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mx_pcap_db</sourceRootElem>
+                <sourceRootElem>..\src\pic32mx_usb_sk2_lcc_pictail_qvga</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mx_usb_sk2_lcc_pictail_qvga</sourceRootElem>
+                <sourceRootElem>..\src\pic32mx_usb_sk2_lcc_pictail_wqvga</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mx_usb_sk2_lcc_pictail_wqvga</sourceRootElem>
+                <sourceRootElem>..\src\pic32mx_usb_sk2_meb</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mx_usb_sk2_meb</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_da_sk_extddr_meb2</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_da_sk_extddr_meb2</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_da_sk_extddr_meb2_legacy</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_da_sk_extddr_meb2_legacy</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_da_sk_extddr_meb2_wvga</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_da_sk_extddr_meb2_wvga</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_da_sk_extddr_meb2_wvga_legacy</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_da_sk_extddr_meb2_wvga_legacy</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_ef_sk_meb2</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_ef_sk_meb2</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_ef_sk_meb2_ext</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_ef_sk_meb2_ext</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_ef_sk_meb2_ext_wvga</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_ef_sk_meb2_ext_wvga</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_ef_sk_meb2_legacy</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_ef_sk_meb2_legacy</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_ef_sk_s1d_pictail_wqvga</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_ef_sk_s1d_pictail_wqvga</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_ef_sk_xpro</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_ef_sk_xpro</sourceRootElem>
+                <sourceRootElem>..\src\bt_audio_dk</sourceRootElem>
+                <sourceRootElem>..\src\system_config\bt_audio_dk</sourceRootElem>
+                <sourceRootElem>..\src\pic32mx_usb_sk2_s1d_pictail_wqvga</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mx_usb_sk2_s1d_pictail_wqvga</sourceRootElem>
+                <sourceRootElem>..\src\pic32mx_usb_sk2_ssd_pictail_qvga</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mx_usb_sk2_ssd_pictail_qvga</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_da_sk_intddr_meb2</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_da_sk_intddr_meb2</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_da_sk_intddr_meb2_wvga</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_da_sk_intddr_meb2_wvga</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_da_sk_noddr_meb2_rgb565</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_da_sk_noddr_meb2_rgb565</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_da_sk_noddr_meb2_rgba8888</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_da_sk_noddr_meb2_rgba8888</sourceRootElem>
+                <sourceRootElem>..\src\pic32mz_da_sk_noddr_meb2_wvga_lut8</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mz_da_sk_noddr_meb2_wvga_lut8</sourceRootElem>
+                <sourceRootElem>..\src\pic32mx_usb_sk2_s1d_pictail_wvga</sourceRootElem>
+                <sourceRootElem>..\src\system_config\pic32mx_usb_sk2_s1d_pictail_wvga</sourceRootElem>
+                <sourceRootElem>../../..</sourceRootElem>
+                <sourceRootElem>..\src\icefyre</sourceRootElem>
+                <sourceRootElem>..\src\system_config\icefyre</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>icefyre</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
         </data>
     </configuration>
 </project>

@@ -12,7 +12,7 @@
     Build-time generated definitions header based on output by the MPLAB Harmony
     Graphics Composer.
 
-    Created with MPLAB Harmony Version 2.05
+    Created with MPLAB Harmony Version 2.06
 *******************************************************************************/
 
 // DOM-IGNORE-BEGIN
@@ -47,6 +47,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "system_definitions.h"
 
 #include "gfx/libaria/libaria.h"
+
 
 #include "gfx/libaria/libaria_init.h"
 

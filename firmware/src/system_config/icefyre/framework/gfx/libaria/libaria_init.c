@@ -12,7 +12,7 @@
     Build-time generated implementation from the MPLAB Harmony
     Graphics Composer.
 
-    Created with MPLAB Harmony Version 2.05
+    Created with MPLAB Harmony Version 2.06
 *******************************************************************************/
 // DOM-IGNORE-BEGIN
 /*******************************************************************************
@@ -44,6 +44,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 laScheme defaultScheme;
 laScheme scheme1;
 laButtonWidget* ButtonWidget1;
+laLabelWidget* LabelWidget1;
 
 
 static void ScreenCreate_mainScreen(laScreen* screen);
@@ -89,12 +90,12 @@ int32_t libaria_initialize(void)
     scheme1.textInactive = 0xD71C;
     scheme1.textDisabled = 0x8C92;
 
+    GFX_Set(GFXF_DRAW_PIPELINE_MODE, GFX_PIPELINE_GCUGPU);
     laContext_SetStringTable(&stringTable);
 
     screen = laScreen_New(LA_FALSE, LA_FALSE, &ScreenCreate_mainScreen);
     laContext_AddScreen(screen);
 
-    GFX_Set(GFXF_DRAW_PIPELINE_MODE, GFX_PIPELINE_GCUGPU);
     laContext_SetActiveScreen(0);
 
 	return 0;
@@ -121,6 +122,15 @@ static void ScreenCreate_mainScreen(laScreen* screen)
     laWidget_SetBorderType((laWidget*)ButtonWidget1, LA_WIDGET_BORDER_BEVEL);
     laButtonWidget_SetText(ButtonWidget1, laString_CreateFromID(string_icefyre));
     laWidget_AddChild((laWidget*)layer0, (laWidget*)ButtonWidget1);
+
+    LabelWidget1 = laLabelWidget_New();
+    laWidget_SetPosition((laWidget*)LabelWidget1, 165, 90);
+    laWidget_SetSize((laWidget*)LabelWidget1, 162, 74);
+    laWidget_SetBackgroundType((laWidget*)LabelWidget1, LA_WIDGET_BACKGROUND_FILL);
+    laWidget_SetBorderType((laWidget*)LabelWidget1, LA_WIDGET_BORDER_NONE);
+    laLabelWidget_SetText(LabelWidget1, laString_CreateFromID(string_greeting));
+    laLabelWidget_SetHAlignment(LabelWidget1, LA_HALIGN_LEFT);
+    laWidget_AddChild((laWidget*)layer0, (laWidget*)LabelWidget1);
 
 }
 

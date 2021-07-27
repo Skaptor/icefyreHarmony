@@ -12,7 +12,7 @@
     Build-time generated definitions header based on output by the MPLAB Harmony
     Graphics Composer.
 
-    Created with MPLAB Harmony Version 2.05
+    Created with MPLAB Harmony Version 2.06
 *******************************************************************************/
 
 // DOM-IGNORE-BEGIN
@@ -71,6 +71,7 @@ extern "C" {
 extern laScheme defaultScheme;
 extern laScheme scheme1;
 extern laButtonWidget* ButtonWidget1;
+extern laLabelWidget* LabelWidget1;
 
 
 int32_t libaria_initialize(void);

@@ -93,7 +93,6 @@ void __ISR(_EXTERNAL_2_VECTOR, IPL1AUTO) _IntHandlerExternalInterruptInstance0(v
 {
     PLIB_INT_SourceFlagClear(INT_ID_0, INT_SOURCE_EXTERNAL_2);
     DRV_TOUCH_MTCH6301_ReadRequest(sysObj.drvMtch6301);
-    DRV_TOUCH_FT5XX6_TouchInputRead(sysObj.drvFt5xx6);
 }
  
 

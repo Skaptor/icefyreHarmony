@@ -12,7 +12,7 @@
     Build-time generated definitions header based on output by the MPLAB Harmony
     Graphics Composer.
 
-    Created with MPLAB Harmony Version 2.05
+    Created with MPLAB Harmony Version 2.06
 *******************************************************************************/
 
 // DOM-IGNORE-BEGIN
@@ -59,20 +59,28 @@ extern "C" {
 #define LA_MAX_LAYERS     1
 
 // widget inclusion
+#define LA_ARC_WIDGET_ENABLED              1
+#define LA_BAR_GRAPH_WIDGET_ENABLED        1
 #define LA_BUTTON_WIDGET_ENABLED           1
 #define LA_CHECKBOX_WIDGET_ENABLED         1
 #define LA_CIRCLE_WIDGET_ENABLED           1
+#define LA_CIRCULAR_GAUGE_WIDGET_ENABLED   1
+#define LA_CIRCULAR_SLIDER_WIDGET_ENABLED  1
 #define LA_DRAWSURFACE_WIDGET_ENABLED      1
 #define LA_IMAGE_WIDGET_ENABLED            1
+#define LA_IMAGEPLUS_WIDGET_ENABLED        1
 #define LA_IMAGESEQUENCE_WIDGET_ENABLED    1
 #define LA_GRADIENT_WIDGET_ENABLED         1
 #define LA_GROUPBOX_WIDGET_ENABLED         1
 #define LA_KEYPAD_WIDGET_ENABLED           1
 #define LA_LABEL_WIDGET_ENABLED            1
 #define LA_LINE_WIDGET_ENABLED             1
+#define LA_LINE_GRAPH_WIDGET_ENABLED       1
 #define LA_LIST_WIDGET_ENABLED             1
 #define LA_LISTWHEEL_WIDGET_ENABLED        1
+#define LA_PIE_CHART_WIDGET_ENABLED        1
 #define LA_PROGRESSBAR_WIDGET_ENABLED      1
+#define LA_RADIAL_MENU_WIDGET_ENABLED      1
 #define LA_RADIOBUTTON_WIDGET_ENABLED      1
 #define LA_RECTANGLE_WIDGET_ENABLED        1
 #define LA_SCROLLBAR_WIDGET_ENABLED        1
